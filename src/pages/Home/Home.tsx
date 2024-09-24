@@ -10,7 +10,7 @@ const Home = () => {
 
     $('#animate-btn').on('click', function () {
       $('#blue-box').animate({ left: '85%' }, 1000, function () {
-        $(this).animate({ width: '200px', height: '200px' }, 1000, function () {
+        $(this).animate({ width: '200px', height: '200px', fontSize: '25px' }, 1000, function () {
           $(this).css({ backgroundColor: 'white', color: 'blue' });
           $(this).text('Animated with jQuery!');
         });
